@@ -7,5 +7,5 @@ jobs:
   greet:
     runs-on: debian-latest
     steps:
-      - name: test
+      - name: testasd
         run: npm run test
