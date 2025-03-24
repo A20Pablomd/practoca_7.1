@@ -1,13 +1,19 @@
 name: npm test
 
-on:
-  push
+on: [ push ]
 
 jobs:
-  greet:
+  test:
     runs-on: ubuntu-latest
     steps:
-#      - name: asd
-#        run: npm install
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+
+      - name: asd
+        run: npm install
+
       - name: test
         run: npm run test
