@@ -1,0 +1,11 @@
+name: npm test
+
+on:
+  push
+
+jobs:
+  greet:
+    runs-on: debian-latest
+    steps:
+      - name: test
+        run: npm run test
