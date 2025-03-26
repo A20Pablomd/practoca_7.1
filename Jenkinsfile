@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git branch: "main", url: 'https://github.com/cristina-paris/practicagithubactions'
+        git branch: "main", url: 'https://github.com/A20Pablomd/practoca_7.1'
       }
     }
     stage('Build') {
