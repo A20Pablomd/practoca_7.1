@@ -15,8 +15,8 @@ pipeline {
       steps {
         script {
           newApp = docker.build "$IMAGEN:$BUILD_NUMBER"
+        }
       }
-    }
     }
     stage('Deploy') {
       steps {
