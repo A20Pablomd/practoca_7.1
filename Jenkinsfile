@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    IMAGEN = "cparisfp/myapp"
+    IMAGEN = "a20pablomd/Amellor"
     BUILD_NUMBER = "1"
     USUARIO = 'USER_DOCKERHUB'
   }
